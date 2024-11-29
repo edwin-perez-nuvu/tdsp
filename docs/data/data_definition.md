@@ -2,24 +2,14 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+El conjunto de datos a analizar incluye todos los delitos graves, delitos menores y violaciones reportados al Departamento de Policía de la Ciudad de Nueva York (NYPD) para los años 2019 al 2021.
+
+ [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data).
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+- Se realiza descarga directa de los datos por medio del comando wget 
 
-## Referencias a rutas o bases de datos origen y destino
-
-- [ ] Especificar las rutas o bases de datos de origen y destino para los datos.
-
-### Rutas de origen de datos
-
-- [ ] Especificar la ubicación de los archivos de origen de los datos.
-- [ ] Especificar la estructura de los archivos de origen de los datos.
-- [ ] Describir los procedimientos de transformación y limpieza de los datos.
-
-### Base de datos de destino
-
-- [ ] Especificar la base de datos de destino para los datos.
-- [ ] Especificar la estructura de la base de datos de destino.
-- [ ] Describir los procedimientos de carga y transformación de los datos en la base de datos de destino.
+```
+wget https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243/about_data
+```
